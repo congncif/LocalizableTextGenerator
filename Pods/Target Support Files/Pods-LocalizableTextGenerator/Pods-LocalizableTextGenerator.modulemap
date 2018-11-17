@@ -1,0 +1,6 @@
+framework module Pods_LocalizableTextGenerator {
+  umbrella header "Pods-LocalizableTextGenerator-umbrella.h"
+
+  export *
+  module * { export * }
+}

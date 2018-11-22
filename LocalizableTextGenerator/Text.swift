@@ -3,8 +3,8 @@
 import SiFUtilities
 import Foundation
 
-struct Text {
-    static let newTextHere = "new_text_here".localized
-    static let welcomeMessage = "welcome_message".localized
-    static let welcomeTitle = "welcome_title".localized
+public struct Text {
+    public static var newTextHere: String { return "new_text_here".localized }
+    public static var welcomeMessage: String { return "welcome_message".localized }
+    public static var welcomeTitle: String { return "welcome_title".localized }
 }

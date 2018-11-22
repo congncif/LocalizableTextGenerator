@@ -1,6 +1,6 @@
 PODS:
   - Localize-Swift (2.0.0)
-  - SiFUtilities/Localize (4.0.9):
+  - SiFUtilities/Localize (4.0.13):
     - Localize-Swift
 
 DEPENDENCIES:
@@ -13,7 +13,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Localize-Swift: c798ec9286494866f7068f85f7c71283ac5bdab4
-  SiFUtilities: 0f85d7c8c5a80cfc16e4376d9c69efd58d327fd3
+  SiFUtilities: f00c5d85364d5e40517efe5fc7de03e8b56c0cba
 
 PODFILE CHECKSUM: 143a198892d0fc76d089d7124670deb13be76aa9
 

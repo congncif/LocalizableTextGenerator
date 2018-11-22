@@ -101,8 +101,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2075459921A040700017F370 /* Build configuration list for PBXNativeTarget "LocalizableTextGenerator" */;
 			buildPhases = (
-				2075459C21A042ED0017F370 /* LocalizableGenerator */,
 				4AE69A8B6CAEC9F61738449C /* [CP] Check Pods Manifest.lock */,
+				2075459C21A042ED0017F370 /* LocalizableGenerator */,
 				2075458321A040640017F370 /* Sources */,
 				2075458421A040640017F370 /* Frameworks */,
 				2075458521A040640017F370 /* Resources */,
@@ -181,7 +181,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export PATH=/usr/local/bin:$PATH\ncd \"$PROJECT_DIR\"\n\n\"${PODS_ROOT}\"/SiFUtilities/Localize/localizable2appstrings LocalizableTextGenerator/en.lproj/Localizable.strings LocalizableTextGenerator/Text.swift\n";
+			shellScript = "export PATH=/usr/local/bin:$PATH\ncd \"$PROJECT_DIR\"\n\n\"${PODS_ROOT}\"/SiFUtilities/Localize/localizable2appstrings LocalizableTextGenerator/en.lproj/Localizable.strings LocalizableTextGenerator/Text.swift camelCaseKey\n";
 		};
 		4AE69A8B6CAEC9F61738449C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
